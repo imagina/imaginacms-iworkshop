@@ -28,4 +28,7 @@ class $CLASS_NAME$ extends CoreModel
   ];
   public array $translatedAttributes = [];
   protected $fillable = [];
+
+  //Attributes used by the search filter. Already added by default: id,title; but you can add more attributes
+  //public $searchable = []
 }
